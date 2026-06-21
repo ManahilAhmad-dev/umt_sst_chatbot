@@ -9,3 +9,7 @@ tqdm
 pandas
 python-dotenv
 rich
+cmake
+face_recognition
+opencv-python
+easyocr>=1.7.0

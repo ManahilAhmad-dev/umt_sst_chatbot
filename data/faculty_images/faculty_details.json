@@ -1,0 +1,198 @@
+{
+  "abdullah_hassan": {
+    "name": "Mr. Abdullah Hasan",
+    "title": "Lecturer",
+    "department": "Artificial Intelligence",
+    "email": "abdullah.hasan@umt.edu.pk",
+    "phone": "042-111868868 Ext: 6226",
+    "office_location": "CB1-507-08",
+    "office_timings": "Thu: 11:00-12:30 | Fri: 11:00-12:30"
+  },
+  "ahmad_dawood": {
+    "name": "Ahmad Dawood",
+    "department": "N/A",
+    "email": "ahmad.dawood@umt.edu.pk",
+    "phone": "N/A",
+    "office_location": "N/A",
+    "office_timings": "N/A"
+  },
+  "ahmad_yar": {
+    "name": "Ahmad Yar",
+    "department": "N/A",
+    "email": "ahmad.yar@umt.edu.pk",
+    "phone": "N/A",
+    "office_location": "N/A",
+    "office_timings": "N/A"
+  },
+  "basit_sattar": {
+    "name": "Basit Sattar",
+    "title": "Lecturer",
+    "department": "Artificial Intelligence",
+    "email": "basit.sattar@umt.edu.pk",
+    "phone": "042-111868868 Ext: 6228",
+    "office_location": "CB1-507-5",
+    "office_timings": "Mon: 11:00-12:00 | Tue: 10:00-11:00 | Wed: 11:00-12:00 | Thu: 15:00-17:00"
+  },
+  "daniyal_adeeb": {
+    "name": "Mr. Daniyal Adeeb",
+    "title": "Lecturer",
+    "department": "Artificial Intelligence",
+    "email": "daniyal.adeeb@umt.edu.pk",
+    "phone": "042 111 868 868 Ext: 6425",
+    "office_location": "CB1-503-B",
+    "office_timings": "Mon: 11:00-12:15 | Wed: 11:00-12:15 | Thu: 12:30-13:45 | Fri: 11:00-12:15"
+  },
+  "dr_ashfaq_ahmad": {
+    "name": "Dr. Ashfaq Ahmad",
+    "department": "N/A",
+    "email": "ai.cod@umt.edu.pk",
+    "phone": "N/A",
+    "office_location": "N/A",
+    "office_timings": "N/A"
+  },
+  "dr_muhammad_wasim_nawaz": {
+    "name": "Dr. Muhammad Wasim Nawaz",
+    "department": "N/A",
+    "email": "wasim.nawaz@umt.edu.pk",
+    "phone": "N/A",
+    "office_location": "N/A",
+    "office_timings": "Mon: 10:00-12:00 | Tue: 10:00-12:00 | Wed: 10:00-12:00 | Thu: 10:00-12:00 | Fri: 10:00-12:00"
+  },
+  "dr_shaista_habib": {
+    "name": "Dr. Shaista Habib",
+    "title": "Associate Professor",
+    "department": "Artificial Intelligence",
+    "email": "shaista.habib@umt.edu.pk",
+    "phone": "042-111868868 Ext: 6237",
+    "office_location": "CB1-507-13",
+    "office_timings": "Mon: 11:00-13:00 | Tue: 11:00-13:00 | Wed: 11:00-13:00 | Thu: 11:00-13:00 | Fri: 11:00-13:00"
+  },
+  "fatima_tariq": {
+    "name": "Fatima Tariq",
+    "title": "Lecturer",
+    "department": "Artificial Intelligence",
+    "email": "fatima-tariq@umt.edu.pk",
+    "phone": "042-111-300-200 Ext. 6085",
+    "office_location": "CB1-507-01",
+    "office_timings": "Mon: 09:30-10:30 | Mon: 11:00-12:00 | Tue: 11:00-12:00 | Tue: 15:30-16:30 | Fri: 11:00-12:00"
+  },
+  "hafiza_hina_javed": {
+    "name": "Hafiza Hina Javed",
+    "department": "N/A",
+    "email": "hina.javed@umt.edu.pk",
+    "phone": "N/A",
+    "office_location": "N/A",
+    "office_timings": "N/A"
+  },
+  "hamza_mustafa": {
+    "name": "Hamza Mustafa",
+    "title": "Lecturer",
+    "department": "Artificial Intelligence",
+    "email": "hamza-mustafa@umt.edu.pk",
+    "phone": "6428, 6096",
+    "office_location": "CB1-506-03",
+    "office_timings": "Tue: 11:00-12:30 | Tue: 12:30-14:00 | Wed: 09:30-11:00 | Wed: 12:30-14:00 | Thu: 09:30-11:00 | Thu: 12:30-14:00 | Fri: 09:30-11:00 | Fri: 11:00-12:30"
+  },
+  "jawad_hassan": {
+    "name": "Jawad Hassan",
+    "department": "N/A",
+    "email": "jawad.hasan@umt.edu.pk",
+    "phone": "N/A",
+    "office_location": "N/A",
+    "office_timings": "N/A"
+  },
+  "jawairia_rasheed": {
+    "name": "Jawairia Rasheed",
+    "department": "N/A",
+    "email": "jawairia.rasheed@umt.edu.pk",
+    "phone": "N/A",
+    "office_location": "N/A",
+    "office_timings": "N/A"
+  },
+  "mehak_saleem": {
+    "name": "Mehak Saleem",
+    "department": "N/A",
+    "email": "mehak.saleem@umt.edu.pk",
+    "phone": "N/A",
+    "office_location": "N/A",
+    "office_timings": "N/A"
+  },
+  "muhammad_nadeem": {
+    "name": "Muhammad Nadeem",
+    "title": "Lecturer",
+    "department": "Artificial Intelligence",
+    "email": "Muhammad.Nadeem@umt.edu.pk",
+    "phone": "N/A",
+    "office_location": "CB1-507-14",
+    "office_timings": "Tue: 12:30-14:00 | Wed: 09:30-11:00 | Thu: 15:30-17:00"
+  },
+  "noreen_ashraf": {
+    "name": "Noreen Ashraf",
+    "department": "N/A",
+    "email": "noreen.ashraf@umt.edu.pk",
+    "phone": "N/A",
+    "office_location": "N/A",
+    "office_timings": "N/A"
+  },
+  "reshmail_fatima": {
+    "name": "Reshmail Fatima",
+    "department": "N/A",
+    "email": "reshmail.fatima@umt.edu.pk",
+    "phone": "N/A",
+    "office_location": "N/A",
+    "office_timings": "N/A"
+  },
+  "sardar_waqar_khan": {
+    "name": "Sardar Waqar Khan",
+    "department": "N/A",
+    "email": "sardar.waqar@umt.edu.pk",
+    "phone": "N/A",
+    "office_location": "N/A",
+    "office_timings": "N/A"
+  },
+  "usama_amjad": {
+    "name": "Usama Amjad",
+    "title": "Lecturer",
+    "department": "Artificial Intelligence",
+    "email": "usama.amjad@umt.edu.pk",
+    "phone": "042-111-300-200 Ext.",
+    "office_location": "CB1-506-07",
+    "office_timings": "Mon: 12:30-14:00 | Tue: 12:30-14:00 | Wed: 11:00-12:30 | Wed: 14:00-15:30 | Fri: 15:30-17:00"
+  },
+  "sadaf_jabeen": {
+    "name": "Dr. Sadaf Jabeen",
+    "title": "null",
+    "department": "Computer Science / AI",
+    "email": "null",
+    "phone": "null",
+    "office_location": "52026",
+    "office_timings": "Tue: 11:00-12:15 | Tue: 12:30-13:45 | Thu: 14:00-15:15"
+  },
+  "ifra_afzal": {
+    "name": "Dr. Ifra Afzal",
+    "title": "Assistant Professor",
+    "department": "Artificial Intelligence",
+    "email": "ifra.afzal@umt.edu.pk",
+    "phone": "NA",
+    "office_location": "SST1-50",
+    "office_timings": "Mon: 12:30-14:00 | Tue: 11:00-12:30 | Tue: 12:30-14:00 | Wed: 11:00-12:30 | Thu: 11:00-12:30 | Fri: 15:30-17:00"
+  },
+  "mahmood_hussain": {
+    "name": "Mr. Mahmood Hussain",
+    "title": "Lecturer - AI",
+    "department": "Artificial Intelligence",
+    "email": "mahmood.hussain@umt.edu.pk",
+    "phone": "042-111868868 Ext: 6233",
+    "office_location": "CB1-507-14",
+    "office_timings": "N/A"
+  },
+  "ahmed_raza": {
+    "name": "Ahmed Raza",
+    "title": "Lecturer",
+    "department": "Artificial Intelligence",
+    "email": "ahmed_raza@umt.edu.pk",
+    "phone": "042-111-300-200",
+    "office_location": "CB1-506-06",
+    "office_timings": "Mon: 09:30-11:00 | Mon: 14:00-15:30 | Tue: 14:00-15:30 | Wed: 11:00-12:30 | Wed: 12:30-14:00 | Thu: 09:30-11:00 | Thu: 11:00-12:30"
+  }
+}

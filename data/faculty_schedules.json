@@ -1,0 +1,701 @@
+[
+  {
+    "file_name": "WhatsApp Image 2026-06-15 at 12.45.52 PM.jpeg",
+    "university": "University of Management and Technology",
+    "school": "School of Systems and Technology",
+    "department": "Department of Artificial Intelligence",
+    "semester": "Fall 2025",
+    "instructor": {
+      "name": "Basit Sattar",
+      "designation": "Lecturer",
+      "contact_no": "042-111868868 Ext: 6228",
+      "email": "basit.sattar@umt.edu.pk",
+      "room_no": "CB1-507-5"
+    },
+    "courses": [
+      {
+        "code": "CC 222",
+        "subject": "Computer Organization and Assembly Language (A1)",
+        "credit_hours": 2
+      },
+      {
+        "code": "CC 222",
+        "subject": "Computer Organization and Assembly Language (A2)",
+        "credit_hours": 2
+      },
+      {
+        "code": "CC 281",
+        "subject": "Software Engineering (A6)",
+        "credit_hours": 3
+      }
+    ],
+    "schedule": {
+      "Monday": [
+        { "time": "09:30-10:45", "activity": "Software Engineering A6" },
+        { "time": "11:00-12:00", "activity": "Students Counseling Hours" },
+        { "time": "14:00-15:15", "activity": "COAL A1" }
+      ],
+      "Tuesday": [
+        { "time": "10:00-11:00", "activity": "Students Counseling Hours" },
+        { "time": "12:30-13:45", "activity": "COAL A2" }
+      ],
+      "Wednesday": [
+        { "time": "11:00-12:00", "activity": "Students Counseling Hours" },
+        { "time": "15:30-16:45", "activity": "COAL A2" }
+      ],
+      "Thursday": [
+        { "time": "09:30-10:45", "activity": "Software Engineering A6" },
+        { "time": "15:00-17:00", "activity": "Students Counseling Hours" },
+        { "time": "17:00-18:15", "activity": "COAL A1" }
+      ],
+      "Friday": [],
+      "Saturday": "OFFDAY",
+      "Sunday": "OFFDAY"
+    }
+  },
+  {
+    "file_name": "WhatsApp Image 2026-06-15 at 12.45.54 PM.jpeg",
+    "university": "University of Management and Technology",
+    "school": "School of Systems and Technology",
+    "department": "Department of Artificial Intelligence",
+    "semester": "Not Specified",
+    "instructor": {
+      "name": "Dr. Ifra Afzal",
+      "designation": "Assistant Professor",
+      "contact_no": "NA",
+      "email": "ifra.afzal@umt.edu.pk",
+      "room_no": "SST1-50"
+    },
+    "courses": [
+      {
+        "code": "AI271L",
+        "subject": "Programming for AI Lab A2 (SST2 502)",
+        "credit_hours": 3
+      }
+    ],
+    "schedule": {
+      "Monday": [
+        { "time": "12:30-14:00", "activity": "Student Counseling Hrs." }
+      ],
+      "Tuesday": [
+        { "time": "11:00-12:30", "activity": "Student Counseling Hrs." },
+        { "time": "12:30-14:00", "activity": "Student Counseling Hrs." }
+      ],
+      "Wednesday": [
+        { "time": "11:00-12:30", "activity": "Student Counseling Hrs." }
+      ],
+      "Thursday": [
+        { "time": "11:00-12:30", "activity": "Student Counseling Hrs." }
+      ],
+      "Friday": [
+        { "time": "15:30-17:00", "activity": "Student Counseling Hrs." },
+        { "time": "17:00-18:30", "activity": "Programming for AI Lab" },
+        { "time": "18:30-20:00", "activity": "Programming for AI Lab" }
+      ],
+      "Saturday": "OFFDAY",
+      "Sunday": "OFFDAY"
+    }
+  },
+  {
+    "file_name": "WhatsApp Image 2026-06-15 at 12.45.58 PM.jpeg",
+    "university": "University of Management and Technology",
+    "school": "School of Systems and Technology",
+    "department": "Department of Computer Science",
+    "semester": "Not Specified",
+    "instructor": {
+      "name": "Ms. Fatima Shahzad",
+      "designation": "Not Specified",
+      "contact_no": "Not Specified",
+      "email": "fatimashahzad@umt.edu.pk",
+      "room_no": "Not Specified"
+    },
+    "courses": [],
+    "schedule": {
+      "Monday": [
+        { "time": "01:00pm-03:00pm", "activity": "Counselling Hours" }
+      ],
+      "Tuesday": [
+        { "time": "09:30am-10:30am", "activity": "Counselling Hours" }
+      ],
+      "Wednesday": [
+        { "time": "11:00am-01:00pm", "activity": "Counselling Hours" }
+      ],
+      "Thursday": [
+        { "time": "01:00pm-03:00pm", "activity": "Counselling Hours" }
+      ],
+      "Friday": [
+        { "time": "09:30am-10:30am", "activity": "Counselling Hours" }
+      ],
+      "Saturday": "OFF",
+      "Sunday": "OFF"
+    }
+  },
+  {
+    "file_name": "WhatsApp Image 2026-06-15 at 12.45.59 PM.jpeg",
+    "university": "University of Management and Technology",
+    "school": "School of Systems and Technology",
+    "department": "Department of Artificial Intelligence",
+    "semester": "Spring 2026",
+    "instructor": {
+      "name": "Mr. Daniyal Adeeb",
+      "designation": "Lecturer",
+      "contact_no": "042 111 868 868 Ext: 6425",
+      "email": "daniyal.adeeb@umt.edu.pk",
+      "room_no": "CB1-503-B"
+    },
+    "courses": [
+      {
+        "code": "AI473",
+        "subject": "Artificial Neural Networks & Deep Learning (A2)",
+        "credit_hours": 3
+      },
+      {
+        "code": "AI473",
+        "subject": "Artificial Neural Networks & Deep Learning (A4)",
+        "credit_hours": 3
+      }
+    ],
+    "schedule": {
+      "Monday": [
+        { "time": "09:30-10:45", "activity": "Artificial Neural Networks & Deep Learning (A4) (SST1-106B)" },
+        { "time": "11:00-12:15", "activity": "Students Counselling hours" }
+      ],
+      "Tuesday": [],
+      "Wednesday": [
+        { "time": "11:00-12:15", "activity": "Students Counselling hours" },
+        { "time": "12:30-13:45", "activity": "Artificial Neural Networks & Deep Learning (A2) (SST1-115)" }
+      ],
+      "Thursday": [
+        { "time": "11:00-12:15", "activity": "Artificial Neural Networks & Deep Learning (A4) (SST1-701)" },
+        { "time": "12:30-13:45", "activity": "Students Counselling hours" }
+      ],
+      "Friday": [
+        { "time": "09:30-10:45", "activity": "Artificial Neural Networks & Deep Learning (A2) (SST2-1101)" },
+        { "time": "11:00-12:15", "activity": "Students Counselling hours" }
+      ],
+      "Saturday": "OFFDAY",
+      "Sunday": "OFFDAY"
+    }
+  },
+  {
+    "file_name": "WhatsApp Image 2026-06-15 at 12.46.01 PM.jpeg",
+    "university": "University of Management & Technology",
+    "school": "School of Systems and Technology",
+    "department": "Department of Informatics & Systems",
+    "semester": "Spring 2026",
+    "instructor": {
+      "name": "Khaqan Zaheer",
+      "designation": "Principal Lecturer",
+      "contact_no": "Not Specified",
+      "email": "khaqan.zaheer@umt.edu.pk",
+      "room_no": "SST1-503-B"
+    },
+    "courses": [
+      {
+        "code": "CC222",
+        "subject": "Computer Organization and Assembly Language (Section Y2)",
+        "credit_hours": 3
+      },
+      {
+        "code": "CC222",
+        "subject": "Computer Organization and Assembly Language (Section Y3)",
+        "credit_hours": 3
+      },
+      {
+        "code": "CC222",
+        "subject": "Computer Organization and Assembly Language (Section Y5)",
+        "credit_hours": 3
+      }
+    ],
+    "schedule": {
+      "Monday": "OFF Day",
+      "Tuesday": [
+        { "time": "09:30-10:45", "activity": "Counselling Hours" },
+        { "time": "11:00-12:15", "activity": "COAL (Y3)" }
+      ]
+    }
+  },
+  {
+    "file_name": "WhatsApp Image 2026-06-15 at 12.46.03 PM.jpeg",
+    "university": "University of Management and Technology",
+    "school": "School of Systems and Technology",
+    "department": "Department of Artificial Intelligence",
+    "semester": "Not Specified",
+    "instructor": {
+      "name": "Dr. M. Wasim Nawaz",
+      "designation": "Associate Professor",
+      "contact_no": "+92-331-4180565",
+      "email": "wasim.nawaz@umt.edu.pk",
+      "room_no": "Not Specified"
+    },
+    "courses": [
+      { "code": "AI271", "subject": "Programming for AI" },
+      { "code": "CS438", "subject": "Advanced Computer Science Course" }
+    ],
+    "schedule": {
+      "Monday": [
+        { "time": "10:00-12:00", "activity": "Office Hours" },
+        { "time": "14:00-15:15", "activity": "AI271 (A8) (SST2-1005)" },
+        { "time": "15:30-16:45", "activity": "CS438 (D1) (SST2-1001)" }
+      ],
+      "Tuesday": [
+        { "time": "10:00-12:00", "activity": "Office Hours" }
+      ],
+      "Wednesday": [
+        { "time": "10:00-12:00", "activity": "Office Hours" },
+        { "time": "14:00-15:15", "activity": "AI271 (A3) (SST2-1001)" }
+      ],
+      "Thursday": [
+        { "time": "10:00-12:00", "activity": "Office Hours" },
+        { "time": "15:30-16:45", "activity": "CS438 (D1) (SST2-1001)" }
+      ],
+      "Friday": [
+        { "time": "10:00-12:00", "activity": "Office Hours" },
+        { "time": "15:30-16:45", "activity": "AI271 (A3) (SST1-701)" },
+        { "time": "17:00-18:15", "activity": "AI271 (A8) (SST2-1001)" }
+      ],
+      "Saturday": "Off",
+      "Sunday": "Off"
+    }
+  },
+  {
+    "file_name": "WhatsApp Image 2026-06-15 at 12.46.04 PM (1).jpeg",
+    "university": "University of Management and Technology",
+    "school": "School of Systems and Technology",
+    "department": "Department of Artificial Intelligence",
+    "semester": "Not Specified",
+    "instructor": {
+      "name": "Usama Amjad",
+      "designation": "Lecturer",
+      "contact_no": "042-111-300-200 Ext.",
+      "email": "usama.amjad@umt.edu.pk",
+      "room_no": "CB1-506-07"
+    },
+    "courses": [
+      {
+        "code": "CS342 AOA A1",
+        "subject": "Analysis of Algorithm A1 (SST2-1006 / 1302)",
+        "credit_hours": 3
+      },
+      {
+        "code": "DS 391 BD A1",
+        "subject": "Big Data A1 (SST1-701)",
+        "credit_hours": 3
+      },
+      {
+        "code": "DS 391 BD A2",
+        "subject": "Big Data A2 (SST1-701 / SST2-604)",
+        "credit_hours": 3
+      }
+    ],
+    "schedule": {
+      "Monday": [
+        { "time": "12:30-14:00", "activity": "Student Counseling Hrs." },
+        { "time": "14:00-15:30", "activity": "DS 391 BD A1 (SST1-701)" }
+      ],
+      "Tuesday": [
+        { "time": "11:00-12:30", "activity": "CS342 AOA A1 (SST2-1302)" },
+        { "time": "12:30-14:00", "activity": "Student Counseling Hrs." }
+      ],
+      "Wednesday": [
+        { "time": "11:00-12:30", "activity": "Student Counseling Hrs." },
+        { "time": "12:30-14:00", "activity": "DS 391 BD A2 (SST2-604)" },
+        { "time": "14:00-15:30", "activity": "Student Counseling Hrs." }
+      ],
+      "Thursday": [
+        { "time": "11:00-12:30", "activity": "CS342 AOA A1 (SST2-1302)" },
+        { "time": "12:30-14:00", "activity": "DS 391 BD A1 (SST1-701)" }
+      ],
+      "Friday": [
+        { "time": "14:00-15:30", "activity": "DS 391 BD A2 (SST1-701)" },
+        { "time": "15:30-17:00", "activity": "Student Counseling Hrs." }
+      ],
+      "Saturday": "OFFDAY",
+      "Sunday": "OFFDAY"
+    }
+  },
+  {
+    "file_name": "WhatsApp Image 2026-06-15 at 12.46.04 PM.jpeg",
+    "university": "University of Management and Technology",
+    "school": "School of Systems and Technology",
+    "department": "Department of Artificial Intelligence",
+    "semester": "Spring 2026",
+    "instructor": {
+      "name": "Muhammad Nadeem",
+      "designation": "Lecturer",
+      "contact_no": "NA",
+      "email": "Muhammad.Nadeem@umt.edu.pk",
+      "room_no": "CB1-507-14"
+    },
+    "courses": [
+      {
+        "code": "SE489 DS D1",
+        "subject": "Software Verification and Validation D1 (CB1 602)",
+        "credit_hours": 3
+      },
+      {
+        "code": "CC281 SE A1",
+        "subject": "Software Engineering A1 (SST-701)",
+        "credit_hours": 3
+      },
+      {
+        "code": "CC281 SE A2",
+        "subject": "Software Engineering A2 (SST-2 1005, SST-2 1302)",
+        "credit_hours": 3
+      }
+    ],
+    "schedule": {
+      "Monday": "OFFDAY",
+      "Tuesday": [
+        { "time": "09:30-11:00", "activity": "CC281 SE A1" },
+        { "time": "12:30-14:00", "activity": "Student Counseling Hrs." },
+        { "time": "14:00-15:30", "activity": "SE489 DS D1" }
+      ],
+      "Wednesday": [
+        { "time": "09:30-11:00", "activity": "Student Counseling Hrs." },
+        { "time": "11:00-12:30", "activity": "CC281 SE A2" }
+      ],
+      "Thursday": [
+        { "time": "15:30-17:00", "activity": "Student Counseling Hrs." }
+      ],
+      "Friday": [
+        { "time": "08:00-09:30", "activity": "CC281 SE A2" },
+        { "time": "09:30-11:00", "activity": "CC281 SE A1" },
+        { "time": "11:00-12:30", "activity": "CC281 SE A2" }
+      ],
+      "Saturday": "OFFDAY",
+      "Sunday": "OFFDAY"
+    }
+  },
+  {
+    "file_name": "WhatsApp Image 2026-06-15 at 12.46.05 PM (1).jpeg",
+    "university": "University of Management and Technology",
+    "school": "School of Systems and Technology",
+    "department": "Department of Artificial Intelligence",
+    "semester": "Fall 2025",
+    "instructor": {
+      "name": "Mr. Mahmood Hussain",
+      "designation": "Lecturer - AI",
+      "contact_no": "042-111868868 Ext: 6233",
+      "email": "mahmood.hussain@umt.edu.pk",
+      "room_no": "CB1-507-14"
+    },
+    "courses": [
+      {
+        "code": "AI321",
+        "subject": "Knowledge Representation and Reasoning - A1",
+        "credit_hours": 3
+      },
+      {
+        "code": "AI271",
+        "subject": "Programming for AI - A1",
+        "credit_hours": 3
+      },
+      {
+        "code": "AI271",
+        "subject": "Programming for AI - A2",
+        "credit_hours": 2
+      }
+    ],
+    "schedule": {}
+  },
+  {
+    "file_name": "WhatsApp Image 2026-06-15 at 12.46.05 PM.jpeg",
+    "university": "University of Management and Technology",
+    "school": "School of Systems and Technology",
+    "department": "Department of Artificial Intelligence",
+    "semester": "Spring 2026",
+    "instructor": {
+      "name": "Fatima Tariq",
+      "designation": "Lecturer",
+      "contact_no": "042-111-300-200 Ext. 6085",
+      "email": "fatima-tariq@umt.edu.pk",
+      "room_no": "CB1-507-01"
+    },
+    "courses": [
+      {
+        "code": "IS A2-CC361",
+        "subject": "Information Security (A2)",
+        "credit_hours": 3
+      },
+      {
+        "code": "IS A4-CC361",
+        "subject": "Information Security (A4)",
+        "credit_hours": 3
+      }
+    ],
+    "schedule": {
+      "Monday": [
+        { "time": "09:30-10:30", "activity": "Student Counseling Hrs." },
+        { "time": "11:00-12:00", "activity": "Student Counseling Hrs." }
+      ],
+      "Tuesday": [
+        { "time": "09:30-11:00", "activity": "IS A4-CC361" },
+        { "time": "11:00-12:00", "activity": "Student Counseling Hrs." },
+        { "time": "14:00-15:30", "activity": "IS A2-CC361" },
+        { "time": "15:30-16:30", "activity": "Student Counseling Hrs." }
+      ],
+      "Wednesday": [],
+      "Thursday": [],
+      "Friday": [
+        { "time": "08:00-09:30", "activity": "IS A2-CC361" },
+        { "time": "09:30-11:00", "activity": "IS A4-CC361" },
+        { "time": "11:00-12:00", "activity": "Student Counseling Hrs." }
+      ],
+      "Saturday": "OFFDAY",
+      "Sunday": "OFFDAY"
+    }
+  },
+  {
+    "file_name": "WhatsApp Image 2026-06-15 at 12.46.07 PM.jpeg",
+    "university": "University of Management and Technology",
+    "school": "School of Systems and Technology",
+    "department": "Department of Computer Science / AI",
+    "semester": "Spring 2026",
+    "instructor": {
+      "name": "Dr. Sadaf Jabeen",
+      "designation": "Not Specified",
+      "contact_no": "Not Specified",
+      "email": "Not Specified",
+      "room_no": "Not Specified"
+    },
+    "courses": [
+      { "code": "DSA A1", "subject": "Data Structures and Algorithms A1" },
+      { "code": "DSA A2", "subject": "Data Structures and Algorithms A2" },
+      { "code": "DSA D1", "subject": "Data Structures and Algorithms D1" }
+    ],
+    "schedule": {
+      "Monday": [
+        { "time": "09:30-10:45", "activity": "DSA A1 (SST2-1203)" },
+        { "time": "11:00-12:15", "activity": "DSA D1 (SST1-304B)" }
+      ],
+      "Tuesday": [
+        { "time": "11:00-12:15", "activity": "Office Hours" },
+        { "time": "12:30-13:45", "activity": "Office Hours" }
+      ],
+      "Wednesday": [
+        { "time": "09:30-10:45", "activity": "DSA A2 (SST1-702)" },
+        { "time": "12:30-13:45", "activity": "DSA A1 (SST1-704B)" }
+      ],
+      "Thursday": [
+        { "time": "11:00-12:15", "activity": "DSA D1 (SST1-304B)" },
+        { "time": "14:00-15:15", "activity": "Office Hours" }
+      ],
+      "Friday": [
+        { "time": "09:30-10:45", "activity": "DSA A2 (SST2-1005)" }
+      ],
+      "Saturday": "OFF",
+      "Sunday": "OFF"
+    }
+  },
+  {
+    "file_name": "WhatsApp Image 2026-06-15 at 12.46.08 PM (1).jpeg",
+    "university": "University of Management and Technology",
+    "school": "School of Systems and Technology",
+    "department": "Department of Artificial Intelligence",
+    "semester": "Spring 2026",
+    "instructor": {
+      "name": "Dr. Shaista Habib",
+      "designation": "Associate Professor",
+      "contact_no": "042-111868868 Ext: 6237",
+      "email": "shaista.habib@umt.edu.pk",
+      "room_no": "CB1-507-13"
+    },
+    "courses": [
+      { "code": "Generative AI", "subject": "Generative AI Class Lectures" }
+    ],
+    "schedule": {
+      "Monday": [
+        { "time": "08:00-09:00", "activity": "Generative AI" },
+        { "time": "09:00-10:00", "activity": "Generative AI" },
+        { "time": "10:00-11:00", "activity": "Generative AI" },
+        { "time": "11:00-12:00", "activity": "Counselling Hours" },
+        { "time": "12:00-13:00", "activity": "Counselling Hours" }
+      ],
+      "Tuesday": [
+        { "time": "11:00-12:00", "activity": "Counselling Hours" },
+        { "time": "12:00-13:00", "activity": "Counselling Hours" }
+      ],
+      "Wednesday": [
+        { "time": "08:00-09:00", "activity": "Generative AI" },
+        { "time": "09:00-10:00", "activity": "Generative AI" },
+        { "time": "10:00-11:00", "activity": "Generative AI" },
+        { "time": "11:00-12:00", "activity": "Counselling Hours" },
+        { "time": "12:00-13:00", "activity": "Counselling Hours" }
+      ],
+      "Thursday": [
+        { "time": "11:00-12:00", "activity": "Counselling Hours" },
+        { "time": "12:00-13:00", "activity": "Counselling Hours" }
+      ],
+      "Friday": [
+        { "time": "11:00-12:00", "activity": "Counselling Hours" },
+        { "time": "12:00-13:00", "activity": "Counselling Hours" }
+      ],
+      "Saturday": "OFFDAY",
+      "Sunday": "OFFDAY"
+    }
+  },
+  {
+    "file_name": "WhatsApp Image 2026-06-15 at 12.46.08 PM.jpeg",
+    "university": "University of Management and Technology",
+    "school": "School of Systems and Technology",
+    "department": "Department of Artificial Intelligence",
+    "semester": "Not Specified",
+    "instructor": {
+      "name": "Ahmed Raza",
+      "designation": "Lecturer",
+      "contact_no": "042-111-300-200",
+      "email": "ahmed_raza@umt.edu.pk",
+      "room_no": "CB1-506-06"
+    },
+    "courses": [
+      {
+        "code": "CC 213 DSA L",
+        "subject": "Data Structures Lab A1 (SST2-502), SST1-302 A2",
+        "credit_hours": 1
+      },
+      {
+        "code": "CC251 CN A8",
+        "subject": "Computer Network A8 (SST2-1005, SST1-306B)",
+        "credit_hours": 1
+      },
+      {
+        "code": "CS222 COAL A2",
+        "subject": "Computer Organization & Assembly Language A2 (SST2-1005)",
+        "credit_hours": 2
+      }
+    ],
+    "schedule": {
+      "Monday": [
+        { "time": "08:00-09:30", "activity": "CS222 COAL A2" },
+        { "time": "09:30-11:00", "activity": "Student Counseling Hrs" },
+        { "time": "11:00-12:30", "activity": "CC 213 DSA L (A3)" },
+        { "time": "12:30-14:00", "activity": "CC 213 DSA L (A4)" },
+        { "time": "14:00-15:30", "activity": "Student Counseling Hrs" },
+        { "time": "15:30-17:00", "activity": "CC251 CN" }
+      ],
+      "Tuesday": [
+        { "time": "14:00-15:30", "activity": "Student Counseling Hrs" }
+      ],
+      "Wednesday": [
+        { "time": "09:30-11:00", "activity": "CC251 CN" },
+        { "time": "11:00-12:30", "activity": "Student Counseling Hrs" },
+        { "time": "12:30-14:00", "activity": "Student Counseling Hrs" },
+        { "time": "14:00-15:30", "activity": "CC 213 DSA L (A1)" },
+        { "time": "15:30-17:00", "activity": "CC 213 DSA L (A2)" }
+      ],
+      "Thursday": [
+        { "time": "08:00-09:30", "activity": "CS222 COAL A2" },
+        { "time": "09:30-11:00", "activity": "Student Counseling Hrs" },
+        { "time": "11:00-12:30", "activity": "Student Counseling Hrs" }
+      ],
+      "Friday": [],
+      "Saturday": "OFFDAY",
+      "Sunday": "OFFDAY"
+    }
+  },
+  {
+    "file_name": "WhatsApp Image 2026-06-15 at 12.46.09 PM.jpeg",
+    "university": "University of Management and Technology",
+    "school": "School of Systems and Technology",
+    "department": "Department of Artificial Intelligence",
+    "semester": "Spring 2026",
+    "instructor": {
+      "name": "Hamza Mustafa",
+      "designation": "Lecturer",
+      "contact_no": "6428, 6096",
+      "email": "hamza-mustafa@umt.edu.pk",
+      "room_no": "CB1-506-03"
+    },
+    "courses": [
+      {
+        "code": "DS 393",
+        "subject": "Data Mining-A1 A2",
+        "credit_hours": 3
+      },
+      {
+        "code": "DS 393",
+        "subject": "Data Mining-D1",
+        "credit_hours": 2
+      },
+      {
+        "code": "CS4981",
+        "subject": "Capstone Project - I",
+        "credit_hours": 3
+      }
+    ],
+    "schedule": {
+      "Monday": [
+        { "time": "09:30-11:00", "activity": "DM-A2" },
+        { "time": "11:00-12:30", "activity": "DM-A1" },
+        { "time": "12:30-14:00", "activity": "CP-A1" }
+      ],
+      "Tuesday": [
+        { "time": "09:30-11:00", "activity": "DM-D1" },
+        { "time": "11:00-12:30", "activity": "Student Counseling Hrs." },
+        { "time": "12:30-14:00", "activity": "Student Counseling Hrs." }
+      ],
+      "Wednesday": [
+        { "time": "08:00-09:30", "activity": "CP-A1" },
+        { "time": "09:30-11:00", "activity": "Student Counseling Hrs." },
+        { "time": "11:00-12:30", "activity": "DM-A2" },
+        { "time": "12:30-14:00", "activity": "Student Counseling Hrs." }
+      ],
+      "Thursday": [
+        { "time": "09:30-11:00", "activity": "Student Counseling Hrs." },
+        { "time": "11:00-12:30", "activity": "DM-D1" },
+        { "time": "12:30-14:00", "activity": "Student Counseling Hrs." },
+        { "time": "14:00-15:30", "activity": "DM-A1" }
+      ],
+      "Friday": [
+        { "time": "09:30-11:00", "activity": "Student Counseling Hrs." },
+        { "time": "11:00-12:30", "activity": "Student Counseling Hrs." }
+      ],
+      "Saturday": "OFFDAY",
+      "Sunday": "OFFDAY"
+    }
+  },
+  {
+    "file_name": "WhatsApp Image 2026-06-15 at 12.46.10 PM.jpeg",
+    "university": "University of Management and Technology",
+    "school": "School of Systems and Technology",
+    "department": "Department of Artificial Intelligence",
+    "semester": "Spring 2026",
+    "instructor": {
+      "name": "Mr. Abdullah Hasan",
+      "designation": "Lecturer",
+      "contact_no": "042-111868868 Ext: 6226",
+      "email": "abdullah.hasan@umt.edu.pk",
+      "room_no": "CB1-507-08"
+    },
+    "courses": [
+      {
+        "code": "AI 473",
+        "subject": "Artificial Neural Networks and Deep Learning A3",
+        "credit_hours": 3
+      },
+      {
+        "code": "AI 473",
+        "subject": "Artificial Neural Networks and Deep Learning A4",
+        "credit_hours": 3
+      }
+    ],
+    "schedule": {
+      "Monday": [],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": [
+        { "time": "08:00-09:30", "activity": "Artificial Neural Networks and Deep Learning A4 (SST1-106A)" },
+        { "time": "09:30-11:00", "activity": "Artificial Neural Networks and Deep Learning A3 (SST1-501A)" },
+        { "time": "11:00-12:30", "activity": "Student Counseling Hours" }
+      ],
+      "Friday": [
+        { "time": "09:30-11:00", "activity": "Artificial Neural Networks and Deep Learning A3 (SST1-705A)" },
+        { "time": "11:00-12:30", "activity": "Student Counseling Hours" },
+        { "time": "12:30-14:00", "activity": "Artificial Neural Networks and Deep Learning A4 (SST1-304B)" }
+      ],
+      "Saturday": "OFFDAY",
+      "Sunday": "OFFDAY"
+    }
+  }
+]

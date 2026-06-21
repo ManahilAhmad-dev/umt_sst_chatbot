@@ -1,76 +1,103 @@
 # src/rag.py
-import os
 import json
 import faiss
-import numpy as np
-from dotenv import load_dotenv
-load_dotenv()
+from config import Config
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-VECTORDB_DIR = os.path.join(BASE_DIR, "vectordb")
+# ----------------------------------------------------
+# Faculty Metadata Pre-Retrieval Scanner
+# ----------------------------------------------------
+COUNSELLING_KEYWORDS = {
+    "counselling", "counseling", "consulting", "office hours",
+    "availability", "when is", "consultation", "meet the teacher",
+    "teacher available", "professor available"
+}
 
-INDEX_PATH = os.path.join(VECTORDB_DIR, "faiss.index")
-META_PATH = os.path.join(VECTORDB_DIR, "metadata.json")
-
-TOP_K = int(os.getenv("TOP_K", 2))
-
-USE_OPENAI = bool(os.getenv("OPENAI_API_KEY"))
-EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "text-embedding-3-small")
-FALLBACK_MODEL = "all-MiniLM-L6-v2"
-
-# Compute embedding for a query
-def compute_query_embedding(query: str):
-    # --- Try OPENAI first ---
+def search_faculty_registry(query: str):
+    """
+    Scans the local JSON registry for:
+    - Name-specific queries: full profile for any faculty whose name appears in the query.
+    - Counselling-specific queries: all faculty who have known counselling hours set.
+    """
     try:
-        api_key = os.getenv("OPENAI_API_KEY")
-        if api_key and len(api_key) > 20:
-            from openai import OpenAI
-            client = OpenAI(api_key=api_key)
+        with open(Config.FACULTY_JSON_PATH, 'r', encoding='utf-8') as f:
+            faculty_db = json.load(f)
 
-            resp = client.embeddings.create(
-                model=EMBEDDING_MODEL,
-                input=query
-            )
+        query_lower = query.lower()
+        is_counselling_query = any(kw in query_lower for kw in COUNSELLING_KEYWORDS)
+        matches = []
 
-            emb = resp.data[0].embedding
-            return np.array(emb, dtype="float32")
+        for key, details in faculty_db.items():
+            name = details.get("name", "").lower()
+            name_parts = [p for p in name.replace("dr.", "").replace("mr.", "").replace("ms.", "").split() if len(p) > 2]
+            name_in_query = name and (name in query_lower or any(p in query_lower for p in name_parts))
 
-        else:
-            print("⚠️ OPENAI_API_KEY is missing or incomplete → using fallback.")
+            if name_in_query:
+                profile = f"Faculty Name: {details.get('name')}\n"
+                profile += f"Department: {details.get('department', 'N/A')}\n"
+                profile += f"Email: {details.get('email', 'N/A')}\n"
+                profile += f"Phone: {details.get('phone', 'N/A')}\n"
+                profile += f"Office: {details.get('office_location', 'N/A')}\n"
+                profile += f"Counselling Hours: {details.get('office_timings', 'N/A')}\n"
+                matches.append(profile)
+            elif is_counselling_query:
+                timings = details.get("office_timings", "N/A")
+                if timings and timings != "N/A":
+                    profile = f"Faculty Name: {details.get('name')}\n"
+                    profile += f"Counselling Hours: {timings}\n"
+                    profile += f"Office: {details.get('office_location', 'N/A')}\n"
+                    matches.append(profile)
+
+        if matches:
+            return "--- UMT-SST FACULTY REGISTRY DATA ---\n" + "\n\n".join(matches)
+        return ""
 
     except Exception as e:
-        print("⚠️ OpenAI embedding error — using fallback:", e)
+        print(f"Faculty lookup bypassed: {e}")
+        return ""
 
-    # --- FALLBACK EMBEDDING (SentenceTransformer) ---
+# ----------------------------------------------------
+# Compute embedding using strictly offline, local CPU models
+# ----------------------------------------------------
+def compute_query_embedding(query: str):
     from sentence_transformers import SentenceTransformer
-    model = SentenceTransformer(FALLBACK_MODEL)
+    
+    model = SentenceTransformer(Config.EMBEDDING_MODEL)
     emb = model.encode([query], convert_to_numpy=True)
     return emb[0].astype("float32")
 
 # ----------------------------------------------------
-# Retrieve relevant chunks from FAISS index
+# Retrieve relevant chunks from FAISS index & JSON Registry
 # ----------------------------------------------------
-def retrieve(query: str, top_k: int = TOP_K):
-
-        # Load FAISS index
-    index = faiss.read_index(INDEX_PATH)
-
-    # Load metadata JSON
-    with open(META_PATH, "r", encoding="utf-8") as f:
+def retrieve(query: str, top_k: int = Config.TOP_K):
+    # Load FAISS index and PDF metadata
+    index = faiss.read_index(Config.INDEX_PATH)
+    
+    with open(Config.META_PATH, "r", encoding="utf-8") as f:
         meta = json.load(f)
 
-    # Compute query embedding
+    # Compute query embedding mathematically using the local CPU
     q_emb = compute_query_embedding(query)
     q_emb = q_emb.reshape(1, -1)
 
-    # Perform FAISS search
-    D, I = index.search(q_emb, top_k)
+    # Perform FAISS vector similarity search
+    # Renamed ambiguous variables to comply with PEP 8 standards
+    _, indices = index.search(q_emb, top_k)
 
-    # Collect results
+    # Collect PDF results
     results = []
-    for idx in I[0]:
+    for idx in indices[0]:
         if idx < len(meta):
             results.append(meta[idx])
+
+    # Check the JSON database for Teacher Info
+    faculty_context = search_faculty_registry(query)
+    
+    if faculty_context:
+        results.insert(0, {
+            "source": "faculty_details.json",
+            "chunk_id": "Biometric Registry",
+            "text": faculty_context
+        })
 
     return results
 
@@ -87,41 +114,33 @@ def format_context(chunks):
     return "\n".join(out)
 
 # ----------------------------------------------------
-# Ask LLM or fallback answer builder
+# Ask LLM via Groq LPU Routing
 # ----------------------------------------------------
 def ask_llm(question: str, context: str):
     system_prompt = (
-        "You are UMT-SST assistant. Use the provided context to answer "
+        "You are the UMT-SST assistant. Use the provided context to answer "
         "student questions. Cite sources in square brackets like [source:filename]. "
         "If you don't find the answer, say you don't know and recommend contacting the department."
     )
 
-    if USE_OPENAI:
-        from openai import OpenAI
-        client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    from openai import OpenAI
+    
+    client = OpenAI(
+        api_key=Config.OPENAI_API_KEY,
+        base_url=Config.OPENAI_BASE_URL
+    )
 
-        response = client.chat.completions.create(
-            model=os.getenv("LLM_MODEL", "gpt-4o-mini"),
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {
-                    "role": "user",
-                    "content": f"Context:\n{context}\n\nQuestion: {question}"
-                }
-            ],
-            max_tokens=600,
-            temperature=0.1
-        )
+    response = client.chat.completions.create(
+        model=Config.LLM_MODEL,
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {
+                "role": "user",
+                "content": f"Context:\n{context}\n\nQuestion: {question}"
+            }
+        ],
+        max_tokens=600,
+        temperature=0.1
+    )
 
-        return response.choices[0].message.content
-
-    else:
-        answer = "Based on the following sources:\n\n"
-        for i, c in enumerate(context.split("---")[:4]):
-            answer += f"{i+1}. {c.strip()}\n\n"
-
-        answer += "\n(Install an API key to generate better LLM answers.)"
-        return answer
-
-
-
+    return response.choices[0].message.content
